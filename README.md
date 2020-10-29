@@ -1,6 +1,14 @@
 # API for Fantasy Currency Service
 Database for FCS.
 
+Jag valde att skriva min server i Express eftersom jag känner mig bekväm med syntaxen och filstrukturen.
+Till min databas valde jag SQlite av samma anledning, jag känner mig bekväm med relationsdatabaser och
+tyckte att det passade för det här projektet.  
+Databasen består av fyra tabeller som innehåller användare, produkter, användares produkter och prishistorik.
+
+Jag använder Bcrypt för kryptering av lösenord och jsonwebtokens för autensiering i servern.
+
+
 ## Install
 Run `npm install` to install dependencies.
 
