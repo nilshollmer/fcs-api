@@ -47,7 +47,6 @@ app.get('/',(req, res, next) => {
         "PUT /market/value": "Update value of stock",
 
         "POST /auth/register": "Register a new user",
-        "POST /auth/deregister": "Deregister a current user",
         "POST /auth/login": "Login and receive a JWT-token."
     };
 
